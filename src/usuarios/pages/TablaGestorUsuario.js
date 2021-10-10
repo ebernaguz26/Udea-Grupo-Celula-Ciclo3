@@ -113,15 +113,33 @@ const TablaGestorUsuario = () => {
             </tr>
           </tbody>
         </table>
-      </Container>
 
-     
-     
-       
-       <Button type="button" variant="danger" className="float-end"> Buscar </Button>  
-       <input type="text" class="form-control" variant="danger" className="float-end" Buscar />
-       <Button type="button" variant="outline-secondary" className="float-right">Modificar</Button>
-       <Button type="button" variant="danger" className="justify-content-between">Eliminar</Button>
+        <Button type="button" variant="danger" className="float-end">
+          {" "}
+          Buscar{" "}
+        </Button>
+        <input
+          type="text"
+          class="form-control"
+          variant="danger"
+          className="float-end"
+          Buscar
+        />
+        <Button
+          type="button"
+          variant="outline-secondary"
+          className="float-right"
+        >
+          Modificar
+        </Button>
+        <Button
+          type="button"
+          variant="danger"
+          className="justify-content-between"
+        >
+          Eliminar
+        </Button>
+      </Container>
     </div>
   );
 };
